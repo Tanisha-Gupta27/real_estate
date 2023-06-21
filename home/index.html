@@ -4,53 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
 <div class="home-hero">
     <video autoplay loop muted class="home-hero-video">
         <source src="../icons/135141 (720p).mp4" type="video/mp4">
     </video>
-    <div class="header">
-        <div class="header-left">
-            <i class="fa fa-envelope header-icons" style="color:#d08e02"></i><a href="http://webreate.com">webreate.com</a>
-            <i class="fa fa-phone header-icons" style="color:#d08e02"></i><a href="#">(+62) 81 2345 1234</a>
-        </div>
-        <div class="header-right">
-            <a href="http://facebook.com"><i class="fa fa-facebook header-icons" ></i></a>
-            <a href="http://instagram.com"><i class="fa fa-instagram header-icons" ></i></a>
-            <a href="http://twitter.com"><i class="fa fa-twitter header-icons" ></i></a>
-            <a href="http://youtube.com"><i class="fa fa-youtube-play header-icons" ></i></a>
-        </div>
-    </div>   
-    <div class="navbar">
-        <div class="navbar-div">
-            <div class="logo-div">
-                <img class="nav-logo" src="../icons/logo-hestate-3.png" alt="logo"/>
-            </div>
-            <div class="navbar-pages">
-                <div class="nav-page"><a href="#" style="color: #d08e02;">HOME</a></div>
-                <div class="nav-page"><a href="#">ABOUT US</a></div>
-                <div class="nav-page"><a href="#">SERVICE</a></div>
-                <div class="nav-page dropdown"><a href="#" >PAGE<i class="fa fa-caret-down "></i></a>
-                    <div class="dropdown-content">
-                        <a href="#">NEWS</a>
-                        <a href="#">SINGLE POST</a>
-                        <a href="#">PROPERTY LIST</a>
-                        <a href="#">PROPERTY DETAIL</a>
-                        <a href="#">AGENT</a>
-                        <a href="#">FAQ</a>
-                        <a href="#">404 PAGE</a>
-                    </div>
-                </div>
-                <div class="nav-page"><a href="#">CONTACT US</a></div>
-            </div>
-        </div>
-    </div> 
+      
+    <div id="header"></div>
+
     <div class="home-hero-content">
         <p class="home-hero-heading">
             The Real<br>Dream Living
@@ -88,16 +56,16 @@
     <p class="our-partner-sub-head">Official Partner</p>
     <p class="our-partner-head">Our Partner</p>
     <p class="our-partner-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus malesuada neque sed pellentesque ullamcorper.</p>
-    <div class="home-slider">
-    <div class="owl-carousel owl-theme">
-        <div class="item"><img src="../icons/Asset-4@2x-300x93.png" class="home-slider-image"/></div>
-        <div class="item"><img src="../icons/Asset-1@2x-1-300x125.png" class="home-slider-image"/></div>
-        <div class="item"><img src="../icons/Asset-4@2x-300x93.png" class="home-slider-image"/></div>
-        <div class="item"><img src="../icons/Asset-1@2x-1-300x125.png" class="home-slider-image"/></div>
-        <div class="item"><img src="../icons/Asset-4@2x-300x93.png" class="home-slider-image"/></div>
-        <div class="item"><img src="../icons/Asset-1@2x-1-300x125.png" class="home-slider-image"/></div>
-        <div class="item"><img src="../icons/Asset-4@2x-300x93.png" class="home-slider-image"/></div>
-        <div class="item"><img src="../icons/Asset-1@2x-1-300x125.png" class="home-slider-image"/></div>
+    <div class="our-partner-slider">
+    <div class="owl-carousel owl-theme" id="partner">
+        <div class="item"><img src="../icons/Asset-4@2x-300x93.png" class="our-partner-slider-image"/></div>
+        <div class="item"><img src="../icons/Asset-1@2x-1-300x125.png" class="our-partner-slider-image"/></div>
+        <div class="item"><img src="../icons/Asset-4@2x-300x93.png" class="our-partner-slider-image"/></div>
+        <div class="item"><img src="../icons/Asset-1@2x-1-300x125.png" class="our-partner-slider-image"/></div>
+        <div class="item"><img src="../icons/Asset-4@2x-300x93.png" class="our-partner-slider-image"/></div>
+        <div class="item"><img src="../icons/Asset-1@2x-1-300x125.png" class="our-partner-slider-image"/></div>
+        <div class="item"><img src="../icons/Asset-4@2x-300x93.png" class="our-partner-slider-image"/></div>
+        <div class="item"><img src="../icons/Asset-1@2x-1-300x125.png" class="our-partner-slider-image"/></div>
     </div>
     </div>
 </div>
@@ -140,7 +108,7 @@
     <div class="best-partner-content">
         <p class="best-partner-head">The Best Partner to Find New House.</p>
         <p class="best-partner-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus malesuada neque sed pellentesque ullamcorper.</p>
-        <button class="about-contact-button">CONTACT US</button>
+        <button class=" best-partner-button about-contact-button">CONTACT US</button>
     </div>
 </div>
 
@@ -211,10 +179,128 @@
 </div>
 
 
+<div class="benefits">
+    <div class="benefits-content">
+        <p class="benefits-sub-head">Our Benefits</p>
+        <p class="benefits-head">The Benefits</p>
+        <p class="benefits-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus malesuada neque sed pellentesque ullamcorper.</p>
+    </div>
+    <div class="benefits-bottom-box">
+        <div class="benefits-bottom-div">
+            <div><i class="fa fa-car benefits-bottom-icon" style="color:#d08e02;font-size: 60px;padding-left: 2%;"></i></div>
+            <p class="benefits-bottom-head">Good Traffic</p>
+            <p class="benefits-bottom-para">We bring the right people together to challenge established thinking and drive transform in 2023</p>
+        </div>
+        <div class="benefits-bottom-div">
+            <div><i class="fa fa-user benefits-bottom-icon" style="color:#d08e02;font-size: 60px;padding-left: 2%;"></i></div>
+            <p class="benefits-bottom-head">Kids Friendly</p>
+            <p class="benefits-bottom-para">We bring the right people together to challenge established thinking and drive transform in 2023</p>
+        </div>
+        <div class="benefits-bottom-div">
+            <div><i class="fa fa-shopping-cart benefits-bottom-icon" style="color:#d08e02;font-size: 60px;padding-left: 2%;"></i></div>
+            <p class="benefits-bottom-head">Mall & Entertai</p>
+            <p class="benefits-bottom-para">We bring the right people together to challenge established thinking and drive transform in 2023</p>
+        </div>
+    </div>
+</div>
+
+
+<div class="feedback-section">
+    <div class="feedback-left-section">
+        <div class="owl-carousel owl-theme" id="feedback">
+            <div class="item feedback-left-content">
+                <div>
+                    <i class="fa fa-star" style="color:#d08e02;font-size:20px;"></i>
+                    <i class="fa fa-star" style="color:#d08e02;font-size:20px;"></i>
+                    <i class="fa fa-star" style="color:#d08e02;font-size:20px;"></i>
+                    <i class="fa fa-star" style="color:#d08e02;font-size:20px;"></i>
+                    <i class="fa fa-star" style="color:#d08e02;font-size:20px;"></i>
+                </div>
+                <p class="feedback-para">
+                    Lorem ipsum dolor sit amet, consectetur adipis elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud.
+                </p>
+                <div class="feedback-name">
+                    <div class="feed-person-div-image"><img class="feed-person-image" src="../icons/feedback1.png" alt="feedback-img"/></div>
+                    <div>
+                        <p>Christian Gomez</p>
+                        <p class="feed-person-desg">Businessman</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item feedback-left-content">
+                <div>
+                    <i class="fa fa-star" style="color:#d08e02;font-size:20px;"></i>
+                    <i class="fa fa-star" style="color:#d08e02;font-size:20px;"></i>
+                    <i class="fa fa-star" style="color:#d08e02;font-size:20px;"></i>
+                    <i class="fa fa-star" style="color:#d08e02;font-size:20px;"></i>
+                    <i class="fa fa-star" style="color:#d08e02;font-size:20px;"></i>
+                </div>
+                <p class="feedback-para">
+                    Lorem ipsum dolor sit amet, consectetur adipis elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud.
+                </p>
+                <div class="feedback-name">
+                    <div class="feed-person-div-image"><img class="feed-person-image" src="../icons/feedback2.png" alt="feedback-img"/></div>
+                    <div>
+                        <p>Dane Aldred</p>
+                        <p class="feed-person-desg">Businessman</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="feedback-right-section">
+        <img class="feedback-right-section-image" src="../icons/feedback.jpg" alt="feedback"/>
+        <span class="feedback-qoute-icon"><i class="fa fa-quote-right quote-icon"style="color:#d08e02;font-size:20vh;" aria-hidden="true"></i></span>
+    </div>
+</div>
+
+
+<div class="latest-news">
+    <p class="latest-news-sub-head">Our News</p>
+    <p class="latest-news-head">Latest News</p>
+    <div class="latest-news-box">
+        <div class="latest-box-div">
+            <div class="latest-box-div-image"><img class="latest-div-img" src="../icons/latest-news1.jpg" src="latest-news"/></div>
+            <div class="latest-div-details">
+                <p class="latest-div-head">Find Your Best House Using Astrology & Sign</p>
+                <p class="latest-div-date">May 16, 2023</p>
+                <p class="latest-div-para">Odio nisi labore et enim atque et nemo mollit quia modi elit dolorum dolores excepturi...</p>
+                <a class="latest-div-nav" href="#">READ MORE<i class="fa fa-angle-right" style="margin-left: 2%;font-size: 25px;"></i></a>
+            </div>
+        </div>
+        <div class="latest-box-div">
+            <div class="latest-box-div-image"><img class="latest-div-img" src="../icons/latest-news2.jpg" src="latest-news"/></div>
+            <div class="latest-div-details">
+                <p class="latest-div-head">How to Keep Your House Clean When You are Away</p>
+                <p class="latest-div-date">May 18, 2023</p>
+                <p class="latest-div-para">Odio nisi labore et enim atque et nemo mollit quia modi elit dolorum dolores excepturi...</p>
+                <a class="latest-div-nav" href="#">READ MORE<i class="fa fa-angle-right" style="margin-left: 2%;font-size: 25px;"></i></a>
+            </div>
+        </div>
+        <div class="latest-box-div">
+            <div class="latest-box-div-image"><img class="latest-div-img" src="../icons/latest-news3.jpg" src="latest-news"/></div>
+            <div class="latest-div-details">
+                <p class="latest-div-head">Get A New Year Promo for new Purchase</p>
+                <p class="latest-div-date">May 21, 2023</p>
+                <p class="latest-div-para">Odio nisi labore et enim atque et nemo mollit quia modi elit dolorum dolores excepturi...</p>
+                <a class="latest-div-nav" href="#">READ MORE<i class="fa fa-angle-right" style="margin-left: 2%;font-size: 25px;"></i></a>
+            </div>
+        </div>
+    </div>
+    <button class="latest-news-button">READ MORE</button>
+</div>
+
+<div id="footer"></div>
+
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script type="text/javascript">
-    $('.owl-carousel').owlCarousel({
+    $(document).ready(function(){
+    var partner=$("#partner");
+    var feedback=$("#feedback");
+
+    partner.owlCarousel({
     loop:true,
     autoplay:true,
     autoplayTimeout:3000,
@@ -233,8 +319,30 @@
         }
     }
 })
+
+    feedback.owlCarousel({
+    loop:true,
+    autoplay:true,
+    autoplayTimeout:3000,
+    margin:60,
+    nav:false,
+    dots:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
+    })
+    
 </script>
-<script>
+<!-- <script>
     const observer = new IntersectionObserver(entries => {
   // Loop over the entries
   entries.forEach(entry => {
@@ -249,7 +357,25 @@ const viewbox = document.querySelectorAll('.animated-effect');
 viewbox.forEach(image => {
   observer.observe(image);
 });
+</script> -->
+<script>
+    ScrollReveal({
+        reset:false,
+        distance:'100px',
+        duration:2500,
+        delay:400
+    });
+    ScrollReveal().reveal('.home-contact-box',{delay:500,origin:'bottom'});
+    ScrollReveal().reveal('.about-right-image,.featured-properties-top-left,.feedback-right-section-image',{delay:500,origin:'right',distance:'300px'});
+    ScrollReveal().reveal('.feedback-right-section i',{delay:600,origin:'right',distance:'300px'});
+    ScrollReveal().reveal('.featured-properties-top-right',{delay:800,origin:'right',distance:'300px'});
+    ScrollReveal().reveal('.vision-left-image',{delay:500,origin:'left',distance:'300px'});
+    ScrollReveal().reveal('.best-partner-head',{delay:500,origin:'right',distance:'400px',duration:3000});
+    ScrollReveal().reveal('.best-partner-para',{delay:1000,origin:'right',distance:'400px',duration:3000});
+    ScrollReveal().reveal('.best-partner-button',{delay:1500,origin:'right',distance:'400px',duration:3000});
 </script>
 
+
+<script src="../assets/js/header-footer.js"></script>
 </body>
 </html>
