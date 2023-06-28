@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/contact.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -36,12 +36,31 @@
         </div>
     </div>
     <div class="contact-details-right-sec">
-        <form id="contact-form" action="/">
+        <form class="contact-form-details" id="contact-form" action="/">
         <p class="contact-form-head">Your Details</p>
-        <div class="input-control">
-            <label for="firstname">Name</label>
-            
+        <div class="contact-name-mail-div">
+            <div class="input-control contact-name-div">
+                <label class="contact-form-sub-head" for="firstname">First Name <span style="color: #d08e02;">*</span></label>
+                <input class="contact-input" type="text" name="firstname" id="firstname" placeholder="Your Name"/>
+                <div class="error"></div>
+            </div>
+            <div class="input-control contact-name-div">
+                <label class="contact-form-sub-head" for="email">Email Address <span style="color: #d08e02;">*</span></label>
+                <input class="contact-input" type="mail" name="email" id="email" placeholder="email@yourmail.com"/>
+                <div class="error"></div>
+            </div>
         </div>
+        <div class="input-control contact-subject-div">
+            <label class="contact-form-sub-head" for="subject">Subject <span style="color: #d08e02;">*</span></label>
+            <input class="contact-input contact-subject-input" type="text" name="subject" id="subject" placeholder="Subject"/>
+            <div class="error"></div>
+        </div>
+        <div class="input-control contact-subject-div">
+            <label class="contact-form-sub-head" for="comments">Comments / Questions <span style="color: #d08e02;">*</span></label>
+            <textarea class="contact-comment-input" name="comments" id="comments" rows="4" placeholder="Your Message"></textarea>
+            <div class="error"></div>
+        </div>
+        <button class="contact-submit-btn" type="submit">SUBMIT MESSAGE</button>
         </form>
     </div>
 </div>
@@ -53,5 +72,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="../assets/js/header-footer.js"></script>
+<script src="../assets/js/contact-form.js"></script>
 </body>
 </html>

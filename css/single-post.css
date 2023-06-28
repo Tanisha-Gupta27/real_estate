@@ -1,0 +1,136 @@
+.single-post-hero{
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(360deg,rgb(6, 29, 44),rgba(0, 0, 0, 0.4)),url("../icons/single-post-bg.jpg");
+    background-size: cover;
+}
+.single-post-hero-content{
+    position: relative;
+    top:40%;
+}
+.single-post-hero-para{
+   font-size: 3.5rem;
+   font-weight: bold;
+   padding: 0 20%;
+   margin-bottom: 3%;
+}
+.single-post-hero-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 35.5%;
+}
+.single-post-hero-nav-div{
+    display: flex;
+    align-items: end;
+}
+.single-post-hero-nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-left: 1.1vw;
+}
+
+
+.single-post-desc{
+    position: relative;
+    top:-18vh;
+    padding: 0 14%;
+}
+.single-post-desc-image1{
+    height: 100vh;
+    width: 100%;
+    margin-bottom: 3%;
+}
+.single-post-desc-img1{
+    width: 100%;
+    height: 100%;
+}
+.single-post-desc-para{
+    font-size: 1.15rem;
+    color: #787878;
+    letter-spacing: 0.2px;
+    line-height: 1.6;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+.single-post-desc-image2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.single-post-desc-img2{
+    width: 48.5%;
+}
+.single-post-desc-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.single-post-desc-bottom-div{
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+}
+.single-post-desc-bottom-div-icons{
+    margin-left: 1vw;
+    display: flex;
+    justify-content: space-between;
+    width: 7vw;
+}
+
+.single-post-bottom{
+    padding: 0 14%;
+    margin-top: -12vh;
+    height: 140vh;
+}
+.single-post-form{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.single-post-form-head{
+    font-size: 3.5rem;
+}
+.single-post-form-sub-head{
+    font-size: 1.2rem;
+    color: #787878;
+}
+.post-input-control{
+    display: block;
+    width: 100%;
+    border:1px solid #ededed ;
+    color: #787878;
+    outline: none;
+    font-size: 1rem;
+    font-weight: lighter;
+    padding: 1%;
+    margin-top: 1.5%;
+}
+.post-label{
+    font-size: 1.2rem;
+}
+.post-button{
+    width: 20%;
+    padding:  2.3% 2%;
+    letter-spacing: 1px;
+    font-size: 0.85rem;
+    background-color: #d08e02;
+    border: 1px solid #d08e02;
+    color: white;
+}
+.input-chechbox{
+    margin-right: 0.5vw;
+}
+.input-control.success input,.input-control.success textarea {
+    border-color:green;
+}
+.input-control.error input,.input-control.error textarea {
+    border-color:#d08e02;
+}
+.input-control .error {
+    color:#d08e02;
+    font-size: 0.9rem;
+}
