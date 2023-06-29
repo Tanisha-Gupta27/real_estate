@@ -125,7 +125,7 @@
     margin-right: 0.5vw;
 }
 .input-control.success input,.input-control.success textarea {
-    border-color:green;
+    border:1px solid rgb(4, 174, 4);
 }
 .input-control.error input,.input-control.error textarea {
     border-color:#d08e02;
