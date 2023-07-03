@@ -174,27 +174,13 @@ viewbox.forEach(image => {
         duration:2500,
         delay:400
     });
-    ScrollReveal().reveal('.home-contact-box',{delay:500,origin:'bottom'});
-    ScrollReveal().reveal('.best-partner-head',{delay:500,origin:'right',distance:'400px',duration:3000});
-    ScrollReveal().reveal('.best-partner-para',{delay:1000,origin:'right',distance:'400px',duration:3000});
-    ScrollReveal().reveal('.best-partner-button',{delay:1500,origin:'right',distance:'400px',duration:3000});
+    ScrollReveal().reveal('.home-contact-box',{delay:300,origin:'bottom'});
+    ScrollReveal().reveal('.best-partner-head',{delay:200,origin:'right',distance:'400px',duration:3000});
+    ScrollReveal().reveal('.best-partner-para',{delay:300,origin:'right',distance:'400px',duration:3000});
+    ScrollReveal().reveal('.best-partner-button',{delay:350,origin:'right',distance:'400px',duration:3000});
 </script>
 
-<script>
-    let last=0;
-navbar=document.getElementById("sticky-navbar");
-window.addEventListener("scroll",function(){
-    var scrollTop=window.pageXOffset || document.
-    documentElement.scrollTop;
-    if(scrollTop>last){
-        navbar.style.top="-80px";
-    }
-    else{
-        navbar.style.top="0";
-    }
-    last=scrollTop;
-});
-</script>
+
 
 <script src="../assets/js/header-footer.js"></script>
 </body>

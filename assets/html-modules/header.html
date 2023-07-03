@@ -36,3 +36,30 @@
     </div>
 </div> 
 
+
+<script>
+    var last=0;
+    navbar=document.getElementById("sticky-navbar");
+    window.addEventListener("scroll",function(){
+    var scrollTop=window.pageYOffset || document.
+    documentElement.scrollTop;
+    if(scrollTop>last){
+        // navbar.style.position="relative";
+        navbar.style.top="-100px";
+    }
+    else if(scrollTop<last){
+        navbar.style.top="0%";
+        navbar.style.position="fixed";
+        navbar.style.backgroundColor="rgba(0,0,0,0.9)";
+        navbar.style.zIndex="2";
+        navbar.style.transition= "0.8s ease";
+    }
+    last=scrollTop;
+    if(scrollTop==0){
+        navbar.style.position="absolute";
+        navbar.style.top="11%";
+        navbar.style.backgroundColor="transparent";
+        navbar.style.transition= "0.8s ease";
+    }
+});
+</script>

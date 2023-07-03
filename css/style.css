@@ -53,7 +53,7 @@ body{
     background-color:transparent;
     /* background-color: bisque; */
     color:white;
-    
+    transition: 0.3s ease;
     /* padding: 3.5% 5%; */
 }
 .navbar-div{
@@ -169,7 +169,7 @@ body{
     display: flex;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
-@keyframes enter-animation {
+/* @keyframes enter-animation {
     0% {
       transform: translateY(15vh);
       opacity: 0;
@@ -178,12 +178,12 @@ body{
       transform: translateY(0);
       opacity: 1;
     }
-  }
-  @media (prefers-reduced-motion: no-preference) {
+  } */
+  /* @media (prefers-reduced-motion: no-preference) {
     .image-animation {
       animation: enter-animation 1700ms 1;
     }
-  }
+  } */
 .home-contact-box-left{
     width: 50%;
     padding: 8% 8.5%;
@@ -351,10 +351,14 @@ body{
 .vision-right-content{
     margin: 28% 0% 0% 15%;
     text-align: left;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-.vision-right-paragraphs{
+/* .vision-right-paragraphs{
     margin-top: 9%;
-}
+} */
 .vision-right-head{
     font-size: 1.5rem;
     font-weight: bold;
@@ -434,6 +438,10 @@ body{
     color: #858585;
     padding: 7% 4%;
     text-align: left;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .featured-top-right-head{
     color: black;
@@ -442,8 +450,8 @@ body{
 }
 .featured-top-right-para{
     font-size: 1.2rem;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    /* margin-top: 5%;
+    margin-bottom: 5%; */
 }
 .featured-properties-top-right a{
     text-decoration: none;
@@ -456,8 +464,11 @@ body{
     color: black;
     font-size: 1.3rem;
     font-weight: bold;
-    margin-top: 7%;
-    margin-bottom: 4%;
+    /* margin-top: 7%;
+    margin-bottom: 4%; */
+}
+.featured-top-nav-div{
+    margin-bottom: 1.5%;
 }
 .featured-properties-top-right-icons{
     display: flex;
@@ -465,11 +476,22 @@ body{
 }
 .featured-properties-top-right-icon{
     width:50%;
+    padding: 0.5% 0;
 }
 .featured-properties-top-right span{
     font-size: 1.2rem;
     line-height: 1.5;
-    margin-left: 2%;
+    margin-left: 3%;
+}
+.featured-button{
+    margin-top: 3%;
+    width: 32%;
+    background-color: #d08e02;
+    border: 1px solid #d08e02;
+    color: #ffffff;
+    padding:  4% ;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
 }
 .featured-properties-bottom{
     display: flex;
