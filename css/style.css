@@ -306,8 +306,10 @@ body{
 
 
 .our-vision{
-    display: flex;
     padding: 0 5%;
+}
+.our-vision-top{
+    display: flex;
 }
 .our-vision-left{
     width: 59%;
@@ -331,10 +333,6 @@ body{
     padding-right: 10%;
     margin-bottom: 6%;
 }
-.vision-left-image{
-    width: 100%;
-    height:100vh;
-}
 .our-vision-right{
     width:41%;
     text-align: right;
@@ -348,13 +346,25 @@ body{
     font-size: 0.9rem;
     letter-spacing: 2px;
 }
-.vision-right-content{
-    margin: 28% 0% 0% 15%;
-    text-align: left;
-    height: 95vh;
+.our-vision-bottom{
+    display: flex;
+    height: 100vh;
+}
+.vision-bottom-left{
+    width: 59%;
+    height: 100%;
+}
+.vision-bottom-right{
+    width: 41%;
+    height: 100%;
+    padding: 2% 0 1% 5%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+.vision-left-image{
+    width: 100%;
+    height:100%;
 }
 /* .vision-right-paragraphs{
     margin-top: 9%;
@@ -362,7 +372,7 @@ body{
 .vision-right-head{
     font-size: 1.5rem;
     font-weight: bold;
-    margin-top: 6%;
+    margin-top: 5%;
     margin-bottom: 3.5%;
 }
 .vision-right-para{
