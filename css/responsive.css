@@ -229,11 +229,101 @@
         width: 100%;
     }
     .vision-bottom-right{
+        height: 75vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         width: 100%;
         padding: 5% 0;
     }
-    .vision-right-paragraphs{
-        margin-bottom: 5%;
+    .best-partner-content{
+        top:10%;
+    }
+    .featured-properties-para{
+        padding: 0 5%;
+    }
+    .featured-properties-top{
+        flex-direction: column;
+        margin-bottom: 8%;
+    }
+    .featured-properties-top-left{
+        width: 100%;
+        margin-bottom: 8%;
+    }
+    .featured-properties-top-right{
+        width: 100%;
+        height: 65vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .featured-properties-top-right a{
+        font-size: 4.5vw;
+    }
+    .featured-properties-top-right span{
+        font-size: 4.5vw;
+    }
+    .featured-properties-top-right-icons{
+        flex-direction: column;
+    }
+    .featured-button{
+        width: 40%;
+    }
+    .featured-properties-bottom{
+        flex-direction: column;
+    }
+    .featured-bottom-div{
+        width: 100%;
+        margin-bottom: 8%;
+    }
+    .featured-bottom-detail span{
+        font-size: 4.5vw;
+    }
+    .benefits-content{
+        width: 100%;
+    }
+    .benefits-bottom-box{
+        flex-direction: column;
+    }
+    .benefits-bottom-div{
+        width: 100%;
+    }
+    .feedback-section{
+        flex-direction: column;
+    }
+    .feedback-left-section{
+        width: 90%;
+        left:5%;
+        top:42vh;
+        height: 35vh;
+    }
+    .feedback-right-section{
+        width: 100%;
+        top:-25vh;
+    }
+    .feedback-qoute-icon{
+        display: none;
+    }
+    .latest-news-box{
+        flex-direction: column;
+    }
+    .latest-box-div{
+        width: 100%;
+        margin-bottom: 10%;
+    }
+    .latest-news-button{
+        padding: 4%;
+    }
+    .footer-logo{
+        height: 10vh;
+        width: 10vh;
+    }
+    .footer-para{
+        padding: 0 5%;
+        font-size: 4vw;
+    }
+    .footer-nav{
+        flex-direction: column;
     }
 
 }
