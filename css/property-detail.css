@@ -11,7 +11,7 @@
     top:50%;
 }
 .property-detail-hero-para{
-   font-size: 3.5rem;
+   font-size: 4.5vw;
    font-weight: bold;
    margin-bottom: 1%;
 }
@@ -27,39 +27,39 @@
 .property-detail-hero-nav a{
     color: white;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.5vw;
     margin-left: 1.1vw;
 }
 
 .property-detail-description{
     margin-top: 8%;
     padding: 0 5%;
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     justify-content: space-between;
 }
 .property-detail-description1{
     width: 13%;
-    height: 100%;
+  
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 .property-detail-description1-img{
     width:100%;
-    height:20vh;
+    
 }
 .property-detail-description2{
     width:53%;
-    height: 100%;
+    
 }
 .property-detail-description2-img{
     width:100%;
-    height: 100%;
+
 }
 .property-detail-description3{
     width:28%;
-    height: 100%;
+   
     padding-top: 1%;
     display: flex;
     flex-direction: column;
@@ -68,16 +68,16 @@
 }
 .property-detail-description3-top-right-head{
     color: black;
-    font-size: 3.5rem;
+    font-size: 4vw;
     font-weight: bold;
 }
 .property-detail-description3-top-right-para{
-    font-size: 1.2rem;
+    font-size: 1.5vw;
     line-height: 1.3;
 }
 .property-detail-description3-top-right-sub-head{
     color: black;
-    font-size: 1.3rem;
+    font-size: 1.5vw;
     font-weight: bold;
 }
 .property-detail-description3-top-right-icons{
@@ -89,7 +89,7 @@
     margin-bottom: 2%;
 }
 .property-detail-description3-top-right-icons span{
-    font-size: 1.2rem;
+    font-size: 1.5vw;
     line-height: 1.5;
     margin-left: 5%;
 }
@@ -101,12 +101,12 @@
 }
 .price-1{
     color: black;
-    font-size: 2rem;
+    font-size: 2.5vw;
     font-weight: bold;
 }
 .price-2{
     color:#d08e02;
-    font-size: 2rem;
+    font-size: 2.5vw;
     font-weight: bold;
 }
 .property-detail-button{
@@ -114,7 +114,7 @@
     border: 1px solid #d08e02;
     color: #ffffff;
     padding:  5%;
-    font-size: 0.9rem;
+    font-size: 1.1vw;
     letter-spacing: 2px;
     width: 50%;
     margin-top: 5%;
@@ -130,7 +130,7 @@
     font-weight: bold;
 }
 .other-properties-head{
-    font-size: 4rem;
+    font-size: 4.5vw;
     font-weight:500;
     line-height: 1;
     margin-top: 2%;
@@ -146,7 +146,7 @@
     margin-bottom: 5%;
 }
 .other-properties-bottom-para{
-    font-size: 1.2rem;
+    font-size: 1.5vw;
     line-height: 1.4;
     color: #787878;
     margin-bottom: 5%;

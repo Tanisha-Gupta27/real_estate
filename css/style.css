@@ -128,7 +128,7 @@ body{
     color: white;
 }
 .home-hero-heading{
-    font-size: 6rem;
+    font-size: 7.9vw;
     font-weight:500;
     line-height: 0.9;
     animation: home-hero-head-ani 800ms ease-in ;
@@ -145,7 +145,7 @@ body{
 }
 .home-hero-para{
     margin-top: 2%;
-    font-size: 1.2rem;
+    font-size: 1.5vw;
     line-height: 1.5;
     animation: home-hero-para-ani 1500ms ease-in;
 }
@@ -194,14 +194,14 @@ body{
 }
 .home-contact-left-heading{
     color:#575a5f;
-    font-size: 1.7rem;
+    font-size: 2vw;
     font-weight: bold;
     margin-top: 12%;
     margin-bottom: 8%;
 }
 .home-contact-left-para{
     color:#807878;
-    font-size: 1.2rem;
+    font-size: 1.5vw;
 }
 .home-contact-box-right{
     width: 50%;
@@ -209,13 +209,13 @@ body{
     background-color: #f4f4f4;
 }
 .home-contact-right-heading{
-    font-size: 1.7rem;
+    font-size: 2vw;
     font-weight: bold;
     margin-top: 10%;
     margin-bottom: 5%;
 }
 .home-contact-right-para{
-    font-size: 1.2rem;
+    font-size: 1.5vw;
 }
 .home-contact-button{
     margin-top: 15%;
@@ -223,7 +223,7 @@ body{
     border: 1px solid #d08e02;
     color: #ffffff;
     padding: 9% 10%;
-    font-size: 1rem;
+    font-size: 1.1vw;
     letter-spacing: 2px;
 }
 
@@ -239,17 +239,18 @@ body{
 }
 .about-left-sub-head{
     color: #d08e02;
+    font-size: 1.3vw;
     font-weight: bold;
 }
 .about-left-heading{
-    font-size: 4rem;
+    font-size: 4.5vw;
     font-weight:500;
     line-height: 1;
     margin-top: 4%;
     margin-bottom: 6%;
 }
 .about-left-para{
-    font-size: 1.2rem;
+    font-size: 1.5vw;
     color: #787878;
     letter-spacing: 0.8px;
     line-height: 1.2;
@@ -260,7 +261,7 @@ body{
     border: 1px solid #d08e02;
     color: #ffffff;
     padding:  3.5%;
-    font-size: 0.9rem;
+    font-size: 1.1vw;
     letter-spacing: 2px;
 }
 .about-us-right{
@@ -283,14 +284,14 @@ body{
     font-weight: bold;
 }
 .our-partner-head{
-    font-size: 4rem;
+    font-size: 4.5vw;
     font-weight:500;
     line-height: 1;
     margin-top: 2%;
     margin-bottom: 2%;
 }
 .our-partner-para{
-    font-size: 1.2rem;
+    font-size: 1.5vw;
     color: #787878;
     letter-spacing: 0.8px;
     line-height: 1.2;
@@ -312,21 +313,21 @@ body{
     display: flex;
 }
 .our-vision-left{
-    width: 59%;
+    width: 58%;
 }
 .vision-left-sub-head{
     color: #d08e02;
     font-weight: bold;
 }
 .vision-left-head{
-    font-size: 4rem;
+    font-size: 4.5vw;
     font-weight:500;
     line-height: 1;
     margin-top: 2.5%;
     margin-bottom: 3%;
 }
 .vision-left-para{
-    font-size: 1.2rem;
+    font-size: 1.5vw;
     color: #787878;
     letter-spacing: 0.8px;
     line-height: 1.2;
@@ -334,7 +335,7 @@ body{
     margin-bottom: 6%;
 }
 .our-vision-right{
-    width:41%;
+    width:42%;
     text-align: right;
 }
 .vision-button{
@@ -343,21 +344,21 @@ body{
     border: 1px solid #d08e02;
     color: #ffffff;
     padding:  4% 4.5%;
-    font-size: 0.9rem;
+    font-size: 1.1vw;
     letter-spacing: 2px;
 }
 .our-vision-bottom{
     display: flex;
-    height: 100vh;
+    /* height: 100vh; */
 }
 .vision-bottom-left{
-    width: 59%;
-    height: 100%;
+    width: 58%;
+    /* height: 100%; */
 }
 .vision-bottom-right{
-    width: 41%;
-    height: 100%;
-    padding: 2% 0 1% 5%;
+    width: 42%;
+    /* height: 100%; */
+    padding: 1% 0 1% 7.5%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -366,17 +367,20 @@ body{
     width: 100%;
     height:100%;
 }
-/* .vision-right-paragraphs{
-    margin-top: 9%;
-} */
+.vision-right-paragraphs{
+    height: 29%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .vision-right-head{
-    font-size: 1.5rem;
+    font-size: 2.1vw;
     font-weight: bold;
-    margin-top: 5%;
-    margin-bottom: 3.5%;
+    /* margin-top: 5%;
+    margin-bottom: 3.5%; */
 }
 .vision-right-para{
-    font-size: 1.2rem;
+    font-size: 1.5vw;
     color: #787878;
 }
 
@@ -398,10 +402,10 @@ body{
     color: white;
 }
 .best-partner-head{
-    font-size: 3.5rem;
+    font-size: 4.5vw;
 }
 .best-partner-para{
-    font-size: 1.2rem;
+    font-size: 1.5vw;
     margin-top: 5%;
     line-height: 1.2;
 }
@@ -416,14 +420,14 @@ body{
     font-weight: bold;
 }
 .featured-properties-head{
-    font-size: 4rem;
+    font-size: 4.5vw;
     font-weight:500;
     line-height: 1;
     margin-top: 2%;
     margin-bottom: 2%;
 }
 .featured-properties-para{
-    font-size: 1.2rem;
+    font-size: 1.5vw;
     color: #787878;
     letter-spacing: 0.5px;
     line-height: 1.2;
@@ -432,11 +436,11 @@ body{
 .featured-properties-top{
     display: flex;
     margin: 3.5% 5% 2.5%;
-    height: 100vh;
+    /* height: 100vh; */
 }
 .featured-properties-top-left{
     width: 53%;
-    height: 100%;
+    /* height: 100%; */
 }
 .featured-properties-top-left-image{
     width: 100%;
@@ -448,31 +452,31 @@ body{
     color: #858585;
     padding: 7% 4%;
     text-align: left;
-    height: 100%;
+    /* height: 100%; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 .featured-top-right-head{
     color: black;
-    font-size: 2rem;
+    font-size: 2.5vw;
     font-weight: bold;
 }
 .featured-top-right-para{
-    font-size: 1.2rem;
+    font-size: 1.5vw;
     /* margin-top: 5%;
     margin-bottom: 5%; */
 }
 .featured-properties-top-right a{
     text-decoration: none;
     color: #858585;
-    font-size:1.2rem ;
+    font-size:1.5vw ;
     line-height: 1.5;
     margin-left: 2%;
 }
 .featured-top-right-sub-head{
     color: black;
-    font-size: 1.3rem;
+    font-size: 1.6vw;
     font-weight: bold;
     /* margin-top: 7%;
     margin-bottom: 4%; */
@@ -489,7 +493,7 @@ body{
     padding: 0.5% 0;
 }
 .featured-properties-top-right span{
-    font-size: 1.2rem;
+    font-size: 1.5vw;
     line-height: 1.5;
     margin-left: 3%;
 }
@@ -500,7 +504,7 @@ body{
     border: 1px solid #d08e02;
     color: #ffffff;
     padding:  4% ;
-    font-size: 0.9rem;
+    font-size: 1.1vw;
     letter-spacing: 2px;
 }
 .featured-properties-bottom{
@@ -515,15 +519,15 @@ body{
 }
 .featured-bottom-div-image{
     width: 100%;
-    height: 45vh;
+    /* height: 45vh; */
 }
 .featured-bottom-head{
-    font-size: 1.5rem;
+    font-size: 2vw;
     margin-top: 3%;
     margin-bottom: 3%;
 }
 .featured-bottom-price{
-    font-size: 1.2rem;
+    font-size: 1.5vw;
     color: #d08e02;
     font-weight: bold;
     margin-bottom: 3%;
@@ -537,7 +541,7 @@ body{
 .featured-bottom-detail span{
     color: #858585;
     margin-left: 1.1vw;
-    font-size: 1.2rem;
+    font-size: 1.5vw;
 }
 
 
@@ -554,14 +558,14 @@ body{
     font-weight: bold;
 }
 .benefits-head{
-    font-size: 4rem;
+    font-size: 4.5vw;
     font-weight:500;
     line-height: 1;
     margin-top: 3%;
     margin-bottom: 3%;
 }
 .benefits-para{
-    font-size: 1.2rem;
+    font-size: 1.5vw;
     color: #787878;
     letter-spacing: 0.8px;
     line-height: 1.2;
@@ -575,20 +579,22 @@ body{
 }
 .benefits-bottom-div{
     width: 26%;
+    margin-bottom: 4%;
 }
 .benefits-bottom-head{
-    font-size: 1.5rem;
+    font-size: 2vw;
     margin-top: 8%;
     margin-bottom: 5%;
 }
 .benefits-bottom-para{
-    font-size: 1.2rem;
+    font-size: 1.5vw;
     line-height: 1.3;
     color: #949494;
 }
 
 
 .feedback-section{
+
     padding: 8% 6.5% 0%;
     background-color: white;
     display: flex;
@@ -598,7 +604,7 @@ body{
     position: relative;
     left:7%;
     top:22vh;
-    width: 50%;
+    width: 45%;
     height: 66vh;
     padding: 6% 5%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -611,19 +617,19 @@ body{
     justify-content: space-between;
 }
 .feedback-para{
-    font-size: 1.4rem;
+    font-size: 1.7vw;
     color: #7a7a7a;
     font-style: italic;
 }
 .feedback-name{
-    font-size: 1.3rem;
+    font-size: 1.8vw;
     display: flex;
     align-items: center;
 }
 .feed-person-desg{
     color:#7a7a7a;
     margin-top: 5%;
-    font-size: 0.9rem;
+    font-size: 1.2vw;
 }
 .feed-person-div-image{
     height: 12vh;
@@ -648,22 +654,24 @@ body{
     height: 100%;
 }
 .feedback-right-section{
+    position: relative;
     width: 50%;
-    height:100vh;
+    /* height:100vh; */
 }
 .feedback-right-section-image{
     width: 100%;
-    height:100vh;
+    /* height:100vh; */
 }
 .feedback-qoute-icon{
-    position: relative;
-    bottom:75%;
-    left:5%;
+    position: absolute;
+    /* bottom:75%; */
+    top:10%;
+    left:3%;
     z-index: 2;
 }
 
 .spacing{
-    height: 20vh;
+    height: 12vh;
 }
 
 .latest-news{
@@ -675,7 +683,7 @@ body{
     font-weight: bold;
 }
 .latest-news-head{
-    font-size: 4rem;
+    font-size: 4.5vw;
     font-weight:500;
     line-height: 1;
     margin-top: 2%;
@@ -700,27 +708,27 @@ body{
     overflow: hidden;
 }
 .latest-div-img{
-    height: 52vh;
+    height: 100%;
     width: 100%;
-    transform: scale(1.3);
+    transform: scaleX(1.3);
 }
 .latest-div-details{
     padding: 6% 10% 12%;
 }
 .latest-div-head{
-    font-size: 1.5rem;
+    font-size: 2vw;
     /* font-weight: bold; */
     line-height: 1.3;
 }
 .latest-div-date{
     color: #7a7a7a;
-    font-size: 0.9rem;
+    font-size: 1.2vw;
     margin-top: 5%;
     margin-bottom: 5%;
 }
 .latest-div-para{
     color: #7a7a7a;
-    font-size: 1.2rem;
+    font-size: 1.5vw;
     line-height: 1.4;
     margin-bottom: 5%;
 }
@@ -738,7 +746,7 @@ body{
     border: 1px solid #d08e02;
     color: #ffffff;
     padding:  1.5%;
-    font-size: 0.9rem;
+    font-size: 1.1vw;
     letter-spacing: 2px;
 }
 
@@ -755,7 +763,7 @@ body{
     width: 20vh;
 }
 .footer-para{
-    font-size: 1.2rem;
+    font-size: 1.5vw;
     margin-top: 1%;
     margin-bottom: 2%;
     padding: 0% 28%;
@@ -777,15 +785,15 @@ body{
     width: 23%;
 }
 .footer-nav-div1-head{
-    font-size: 1.5rem;
+    font-size: 1.8vw;
     margin-bottom: 5%;
 }
 .footer-nav-div2-head{
-    font-size: 1.5rem;
+    font-size: 1.8vw;
     margin-bottom: 10%;
 }
 .footer-nav-div4-head{
-    font-size: 1.5rem;
+    font-size: 1.8vw;
     margin-bottom: 4%;
 }
 .footer-nav-div11{
@@ -796,13 +804,13 @@ body{
     justify-content: space-between;
 }
 .footer-nav-div11-para{
-    font-size: 1.15rem;
+    font-size: 1.45vw;
     line-height: 1.2;
 }
 .footer-nav-div11 a{
     text-decoration: none;
     color: white;
-    font-size: 1.15rem;
+    font-size: 1.45vw;
 }
 .footer-nav-div11 a:hover{
     color: #d08e02;
@@ -821,7 +829,7 @@ body{
     outline:none;
     border: none;
     padding: 5%;
-    font-size: 1rem;
+    font-size: 1.3vw;
 }
 .footer-submit{
     width: 17%;

@@ -11,7 +11,7 @@
     top:40%;
 }
 .single-post-hero-para{
-   font-size: 3.5rem;
+   font-size: 4vw;
    font-weight: bold;
    padding: 0 20%;
    margin-bottom: 3%;
@@ -28,7 +28,7 @@
 .single-post-hero-nav a{
     color: white;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.5vw;
     margin-left: 1.1vw;
 }
 
@@ -48,7 +48,7 @@
     height: 100%;
 }
 .single-post-desc-para{
-    font-size: 1.15rem;
+    font-size: 1.5vw;
     color: #787878;
     letter-spacing: 0.2px;
     line-height: 1.6;
@@ -69,7 +69,7 @@
     justify-content: space-between;
 }
 .single-post-desc-bottom-div{
-    font-size: 1.2rem;
+    font-size: 1.5vw;
     font-weight: bold;
     display: flex;
 }
@@ -92,10 +92,10 @@
     justify-content: space-between;
 }
 .single-post-form-head{
-    font-size: 3.5rem;
+    font-size: 4vw;
 }
 .single-post-form-sub-head{
-    font-size: 1.2rem;
+    font-size: 1.5vw;
     color: #787878;
 }
 .post-input-control{
@@ -104,19 +104,19 @@
     border:1px solid #ededed ;
     color: #787878;
     outline: none;
-    font-size: 1rem;
+    font-size: 1.3vw;
     font-weight: lighter;
     padding: 1%;
     margin-top: 1.5%;
 }
 .post-label{
-    font-size: 1.2rem;
+    font-size: 1.5vw;
 }
 .post-button{
     width: 20%;
     padding:  2.3% 2%;
     letter-spacing: 1px;
-    font-size: 0.85rem;
+    font-size: 1.1vw;
     background-color: #d08e02;
     border: 1px solid #d08e02;
     color: white;
@@ -132,5 +132,5 @@
 }
 .input-control .error {
     color:#d08e02;
-    font-size: 0.9rem;
+    font-size: 1.1vw;
 }
