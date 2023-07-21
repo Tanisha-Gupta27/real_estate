@@ -121,7 +121,7 @@
     border: 1px solid #d08e02;
     color: white;
 }
-.input-chechbox{
+.input-checkbox{
     margin-right: 0.5vw;
 }
 .input-control.success input,.input-control.success textarea {
@@ -133,4 +133,60 @@
 .input-control .error {
     color:#d08e02;
     font-size: 1.1vw;
+}
+
+
+@media screen and (max-width: 600px){
+    .small{
+          font-size: 4.5vw;
+      }
+    .large{
+          font-size: 11vw;
+      }
+    .mid{
+          font-size: 5vw;
+      }
+    .small-head{
+          font-size: 6vw;
+      }
+    .btn{
+          font-size: 3.5vw;
+      }
+    .single-post-hero{
+       height: 70vh ;
+    }
+    .single-post-hero-para{
+        padding: 0 5%;
+    }
+    .single-post-hero-nav{
+        padding: 0 10%;
+    }
+    .single-post-hero-nav a{
+        font-size: 4.5vw;
+    }
+    .single-post-desc{
+        top:-12vh;
+        padding: 0 10%;
+        margin-bottom: 10%;
+    }
+    .single-post-desc-image1{
+        height: 25vh;
+    }
+    .single-post-desc-bottom{
+        flex-direction: column;
+    }
+    .single-post-desc-bottom-div p,.single-post-desc-bottom-div span{
+        font-size: 5vw;
+    }
+    .single-post-bottom{
+        height: 100vh;
+        padding: 0 10%;
+        margin-bottom: 10vh;
+    }
+    .post-button{
+        width: 60%;
+        padding: 6% 4%;
+    }
+    
+
 }

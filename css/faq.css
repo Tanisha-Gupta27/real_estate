@@ -152,3 +152,49 @@
   width: 48.3%;
   text-align: left;
 }
+
+
+@media screen and (max-width: 999px){
+  .small{
+        font-size: 4.5vw;
+    }
+  .large{
+        font-size: 11vw;
+    }
+  .mid{
+        font-size: 5vw;
+    }
+  .small-head{
+        font-size: 6vw;
+    }
+  .btn{
+        font-size: 3.5vw;
+    }
+  .faq-hero{
+     height: 50vh ;
+  }
+  .popular-question-div{
+    flex-direction: column;
+  }
+  .popular-question-left-sec{
+    width: 100%;
+    margin-bottom: 8%;
+  }
+  .popular-question-right-sec{
+    width: 100%;
+  }
+  .arrows section .box-title:before{
+    font-size:7vw;
+  }
+  .payment-question-left-sec{
+    width: 100%;
+  }
+  .payment-question-right-sec{
+    width: 100%;
+  }
+  .latest-news{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+  }
+
+}

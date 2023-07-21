@@ -151,3 +151,57 @@
     color: #787878;
     margin-bottom: 5%;
 }
+
+
+@media screen and (max-width: 600px){
+    .small{
+          font-size: 4.5vw;
+      }
+    .large{
+          font-size: 11vw;
+      }
+    .mid{
+          font-size: 5vw;
+      }
+    .small-head{
+          font-size: 6vw;
+      }
+    .btn{
+          font-size: 3.5vw;
+      }
+    .property-detail-hero{
+       height: 50vh ;
+    }
+    .property-detail-hero-nav{
+        padding: 0 11%;
+    }
+    .property-detail-hero-nav a{
+        font-size: 4.5vw;
+    }
+    .property-detail-description{
+        flex-direction: column;
+    }
+    .property-detail-description1,.property-detail-description2,.property-detail-description3{
+        width: 100%;
+        margin-top: 10%;
+    }
+    .property-detail-description1-img{
+        margin-top: 10%;
+    }
+    .property-detail-description3-top-right-icons{
+        flex-direction: column;
+    }
+    .property-detail-description3-top-right-icons span{
+        font-size: 4.5vw;
+    }
+    .property-detail-description3-top-right-price-div{
+        flex-direction: column;
+    }
+    .property-detail-description3{
+        height: 80vh;
+    }
+    .other-properties{
+        margin-top: 10vh;
+    }
+
+}

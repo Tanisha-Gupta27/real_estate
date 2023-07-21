@@ -124,3 +124,42 @@
 .featured-bottom-div{
     margin-bottom: 4%;
 }
+
+@media screen and (max-width: 600px){
+    .small{
+          font-size: 4.5vw;
+      }
+    .large{
+          font-size: 11vw;
+      }
+    .mid{
+          font-size: 5vw;
+      }
+    .small-head{
+          font-size: 6vw;
+      }
+    .btn{
+          font-size: 3.5vw;
+      }
+    .property-list-hero{
+       height: 50vh ;
+    }
+    .property-list-featured-top{
+        flex-direction: column;
+    }
+    .property-list-featured-top-left{
+        width: 100%;
+        height: 35vh;
+    }
+    .property-list-featured-top-right{
+        width: 100%;
+        padding: 5% 0;
+        height: 60vh;
+    }
+    .property-list-featured-top-right a,.property-list-featured-top-right span{
+        font-size: 4.5vw;
+    }
+    .property-featured-top-right-icons{
+        flex-direction: column;
+    }
+}

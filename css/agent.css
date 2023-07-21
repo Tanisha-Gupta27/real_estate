@@ -99,3 +99,67 @@
     height: 100vh;
     margin-bottom: 8%;
 }
+
+
+@media screen and (max-width: 999px){
+    .small{
+          font-size: 4.5vw;
+      }
+    .large{
+          font-size: 11vw;
+      }
+    .mid{
+          font-size: 5vw;
+      }
+    .small-head{
+          font-size: 6vw;
+      }
+    .btn{
+          font-size: 3.5vw;
+      }
+    .agent-hero{
+       height: 50vh ;
+    }
+    .our-commitment{
+        flex-direction: column;
+        text-align: center;
+    }
+    .our-commitment-left-sec{
+        width: 100%;
+        margin-bottom: 10%;
+    }
+    .our-commitment-right-sec{
+        width: 100%;
+        padding:  0%;
+    }
+    .commitment-right-sec-sign{
+        width: 60%;
+    }
+    .commitment-right-sec-sign-img{
+        height: 9vh;
+    }
+    .commitment-right-sec-button{
+        width: 45%;
+        padding: 5%;
+    }
+    .expert-agent{
+        margin-top: 10vh;
+    }
+    .expert-agent-para{
+        padding: 0 ;
+    }
+    .agent-best-partner{
+        position: relative;
+        height: 60vh;
+        margin-bottom: 10vh;
+    }
+    .best-partner-content{
+        position: absolute;
+        width: 90%;
+        left: 5%;
+    }
+    .latest-news{
+        margin-bottom: 10vh;
+    }
+
+}

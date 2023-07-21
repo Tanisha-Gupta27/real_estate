@@ -121,7 +121,6 @@
    letter-spacing: 2px;
    margin-top: 20%;
 }
-
 .our-team-lower{
    display: flex;
    justify-content: space-between;
@@ -209,4 +208,70 @@
 .team-lower-div2-desg{
    color:#787878;
    font-size: 1.5vw;
+}
+
+@media screen and (max-width: 600px){
+.small{
+      font-size: 4.5vw;
+  }
+.large{
+      font-size: 11vw;
+  }
+.mid{
+      font-size: 5vw;
+  }
+.small-head{
+      font-size: 6vw;
+  }
+.btn{
+      font-size: 3.5vw;
+  }
+.about-hero{
+   height: 50vh ;
+}
+.about-hero-head{
+   font-size: 11vw ;
+}
+.about-hero-para{
+   padding: 0 5% ;
+   font-size: 4.5vw ;
+}
+.about-counter{
+   flex-direction: column;
+}
+.about-counter-div{
+   height: 17vh;
+   margin-bottom: 15%;
+}
+.be-our-partner{
+   height: 70vh;
+}
+.be-our-partner-content{
+   width: 100%;
+   padding-top:50%;
+}
+.our-team-content{
+   flex-direction: column;
+}
+.our-team-left{
+   width: 100%;
+}
+.our-team-right{
+   width: 100%;
+   text-align: left;
+}
+.team-contact-button{
+   padding: 5% 6%;
+   margin-top: 0%;
+}
+.our-team-lower{
+   flex-direction: column;
+}
+.our-team-lower-div{
+   width: 100%;
+}
+.our-team-lower-div2{
+   top:-6vh;
+}
+
 }
