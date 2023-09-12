@@ -17,21 +17,21 @@
             <img class="nav-logo" src="../icons/logo-hestate-3.png" alt="logo"/>
         </div>
         <div class="navbar-pages" id="navbar-pages">
-            <li class="nav-page"><a class="nav-btn nav-active" href="/index.html" >HOME</a></li>
-            <li class="nav-page"><a class="nav-btn" href="/about.html">ABOUT US</a></li>
-            <li class="nav-page"><a class="nav-btn" href="/service.html">SERVICE</a></li>
-            <div class="nav-page dropdown"><a class="nav-btn" href="#" >PAGE<i class="fa fa-caret-down"></i></a>
+            <li class="nav-page active"><a class="nav-btn nav-link" href="/index.html" >HOME</a></li>
+            <li class="nav-page"><a class="nav-btn nav-link" href="/about.html">ABOUT US</a></li>
+            <li class="nav-page"><a class="nav-btn nav-link" href="/service.html">SERVICE</a></li>
+            <div class="nav-page dropdown" id="nav-drop"><a class="nav-btn nav-link2" href="#" >PAGE<i class="fa fa-caret-down"></i></a>
                 <li class="dropdown-content">
-                    <a href="/news.html">NEWS</a>
-                    <a href="/single-post.html">SINGLE POST</a>
-                    <a href="/property-list.html">PROPERTY LIST</a>
-                    <a href="/property-detail.html">PROPERTY DETAIL</a>
-                    <a href="/agent.html">AGENT</a>
-                    <a href="/faq.html">FAQ</a>
-                    <a href="#">404 PAGE</a>
+                    <a class="nav-link1 " href="/news.html">NEWS</a>
+                    <a class="nav-link1" href="/single-post.html">SINGLE POST</a>
+                    <a class="nav-link1" href="/property-list.html">PROPERTY LIST</a>
+                    <a class="nav-link1" href="/property-detail.html">PROPERTY DETAIL</a>
+                    <a class="nav-link1" href="/agent.html">AGENT</a>
+                    <a class="nav-link1" href="/faq.html">FAQ</a>
+                    <a class="nav-link1" href="#">404 PAGE</a>
                 </li>
             </div>
-            <li class="nav-page"><a class="nav-btn" href="/contact.html">CONTACT US</a></li>
+            <li class="nav-page"><a class="nav-btn nav-link" href="/contact.html">CONTACT US</a></li>
         </div>
         <button class="hamburger">
             <div class="bar"></div>
@@ -99,7 +99,7 @@
     
     }
 </script>
-<script>
+<!-- <script>
     var btnContainer=document.querySelector("#navbar-pages");
     var btns=btnContainer.querySelector(".nav-btn");
     for (var i=0; i<btns.length; i++){
@@ -109,4 +109,23 @@
             this.className+="nav-active";
         })
     }
+</script> -->
+<script>
+    document.querySelectorAll(".nav-link").forEach((link) => {
+    if (link.href === window.location.href) {
+        link.classList.add("active");
+        link.setAttribute("aria-current", "page");
+    }
+    
+})
+let drop=document.getElementsByClassName("nav-link2");
+document.querySelectorAll(".nav-link1").forEach((link) => {
+    if (link.href === window.location.href) {
+        link.classList.add("active");
+        drop.classList.add("active");
+        link.setAttribute("aria-current", "page");
+        drop.setAttribute("aria-current", "page");
+    }
+    
+});
 </script>
